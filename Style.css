@@ -1,9 +1,24 @@
 
 
   body {
-  background-color: lightblue;
-  margin:100px;
+  background-image: url('img/fundo.jpg');
+  background-repeat:round;
+  background-size:contain;
+  background-clip:border-box;
+  background-attachment:scroll;
+  background-color: white;
+
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+header{
+    background-color: #EED2EE;
+    padding-bottom: 15px;
+}
+
 
 
   h1{
@@ -23,6 +38,8 @@
 
 
 footer{
+  background-color: #87CEFF;
+  padding: 50px;
   position: static;
 }
 
@@ -59,8 +76,8 @@ color: white;
 
 
 a:link{
-background-color: Grey;
-color: white;
+background-color: LightGrey;
+color: black;
 padding: 1px 10px;
 text-align: center;
 text-decoration: none;
@@ -112,6 +129,11 @@ blockquote{
   height: 300px;
   border: 1px dotted black;
   overflow: scroll;
+}
+.imgHardSoft{
+  border: 1px solid black;
+  width: 30%;
+  float: right;
 }
 
 
@@ -220,11 +242,49 @@ blockquote{
   .Titulos {
   padding-left: 1px;
   padding-right: 1px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .form{
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #838B83;
   padding: 20px;
+}
+
+
+
+#menu{
+  width:100%;
+  margin:10px auto;
+  padding:0;
+  list-style:outside;
+}
+#menu li{
+  float:left;
+  margin:0 1px;
+}
+#menu li a{
+  text-decoration:underline;
+  font-size:12px;
+  font-weight:bold;
+  color: black;
+  background:#CDC5BF;
+  margin-top:1px;
+  display:block;
+}
+#menu li a span{
+  display:table-column;
+  vertical-align: middle;
+  width:100%;
+  height:40px;
+  padding:0px 2px;
+  text-align:center;
+  word-break:keep-all;
+  box-shadow:3px 3px 3px #000;
+}
+#menu li a:hover{
+  background:#182751;
+  margin-top:0;
+  padding:5px 0;/*padding-top:10px; para o texto não mexer*/
+  box-shadow:3px 3px 3px #000;
 }
