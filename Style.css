@@ -1,5 +1,3 @@
-
-
   body {
   background-image: url('img/fundo.jpg');
   background-repeat:round;
@@ -7,8 +5,6 @@
   background-clip:border-box;
   background-attachment:scroll;
   background-color: white;
-
-
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 10px;
@@ -254,14 +250,16 @@ blockquote{
 
 
 #menu{
-  width:100%;
+  width:20%;
   margin:10px auto;
   padding:0;
-  list-style:outside;
+  list-style:none;
 }
 #menu li{
-  float:left;
-  margin:0 1px;
+  float:none;
+  margin: 1px;
+  text-align: left;
+
 }
 #menu li a{
   text-decoration:underline;
@@ -270,20 +268,20 @@ blockquote{
   color: black;
   background:#CDC5BF;
   margin-top:1px;
-  display:block;
+  display:grid;
 }
 #menu li a span{
   display:table-column;
   vertical-align: middle;
   width:100%;
   height:40px;
-  padding:0px 2px;
+  padding:2px;
   text-align:center;
   word-break:keep-all;
   box-shadow:3px 3px 3px #000;
 }
 #menu li a:hover{
-  background:#182751;
+  background: lightBlue;
   margin-top:0;
   padding:5px 0;/*padding-top:10px; para o texto não mexer*/
   box-shadow:3px 3px 3px #000;
