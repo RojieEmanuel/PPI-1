@@ -31,7 +31,10 @@
 
     <h3 id="Títulos">Títulos</h3>
 
-    <div class="Titulos">
+<div class="Titulos">
+  <div class="dropdown">
+    <span> <div class="imgMenu"><img src="img/menu.png" title="Banner" alt="Banner principal"/></div></span>
+      <div class="dropdown-content">
       <nav>
           <ul id="menu">
           <li><a href="Index.html"> Matéria Online</a></li>
@@ -46,6 +49,8 @@
         </ul>
       </nav>
     </div>
+    </div>
+  </div>
 
 <hr />
 
@@ -156,39 +161,41 @@
 <hr />
 
 <h3>Deixe-nos um Feedback</h3>
-<form action="/pagina-processa-dados-do-form" method="post">
-  <fieldset>
-    <legend>Dados Pessois</legend>
-      <div>
-        <label for="name">Nome:</label>
-        <input type="text" id="name" />
-    </div>
+ <div class="form">
+      <form action="/pagina-processa-dados-do-form" method="post">
+        <fieldset>
+          <legend>Dados Pessois</legend>
+            <div>
+              <label for="name">Nome:</label>
+              <input type="text" id="name" />
+          </div>
 
-    <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" />
-    </div>
-      <fieldset>
-            <legend>Sexo</legend>
-          <input type="radio" name="sexo" value="masculino"> Masculino<br>
-          <!-- checked é o input selecionado por padrão -->
-          <input type="radio" name="sexo" value="feminino" checked> Feminino<br>
-          <input type="radio" name="sexo" value="outro"> Outro
-        </fieldset>
-      </fieldset>
+          <div>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" />
+          </div>
+            <fieldset>
+                  <legend>Sexo</legend>
+                <input type="radio" name="sexo" value="masculino"> Masculino<br>
+                <!-- checked é o input selecionado por padrão -->
+                <input type="radio" name="sexo" value="feminino" checked> Feminino<br>
+                <input type="radio" name="sexo" value="outro"> Outro
+              </fieldset>
+            </fieldset>
 
-          <fieldset>
-              <legend>Feedback</legend>
-                    <div>
-                        <label for="msg">Feedback:</label>
-                        <textarea id="msg"></textarea>
-                    </div>
-                    <div class="button">
-                        <button type="reset">Enviar sua mensagem</button>
-                    </div>
-          </fieldset>
+                <fieldset>
+                    <legend>Feedback</legend>
+                          <div>
+                              <label for="msg">Feedback:</label>
+                              <textarea id="msg"></textarea>
+                          </div>
+                          <div class="button">
+                              <button type="reset">Enviar sua mensagem</button>
+                          </div>
+                </fieldset>
 
-  </form>
+        </form>
+      </div>
 
 
       <p>Texto base tem como referência:<a href="https://www.weblink.com.br/blog/historia-da-internet/#Conceitos-na-Era-da-Pre-internet" target="_blank">WebLink</a></p>
